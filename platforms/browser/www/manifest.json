@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Casos C-19",
+  "short_name": "Casos C-19",
+  "version": "io.cordova.hellocordova",
+  "description": "A application to show the number of corona cases of Brazil.",
+  "author": "WGL Code",
+  "icons": [],
+  "start_url": "index.html"
+}
