@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="css/nivo-lightbox.css">
     <link rel="stylesheet" href="css/main.css">    
     <link rel="stylesheet" href="css/responsive.css">
+    <script type="text/javascript">
+      window.onload = function(){
+        SearchForCasesRecovered()
+      }
+    </script>
   </head>
   
   <body>
@@ -67,8 +72,9 @@
         <div class="row space-100">
           <div class="col-lg-6 col-md-12 col-xs-12">
             <div class="contents">
-              <h2 class="head-title">Consulte os casos de <br>covid-19 (Corona Virus)</h2>
-              <p>Acesse o menu e veja os casos por categoria.</p>
+              <h2 class="head-title">Numero de Recuperados: <br> </h2>
+              <h2 class="head-title" id ="Recuperados"> <br> </h2>
+              <p id="Data-referencia">Dados referentes a data: </p>
             </div>
           </div>
           <div class="col-lg-6 col-md-12 col-xs-12 p-0">
@@ -88,6 +94,7 @@
     <!-- End Preloader -->
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/FindCases.js"></script>
     <script src="js/jquery-min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
