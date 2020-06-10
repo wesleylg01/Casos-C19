@@ -28,7 +28,8 @@ function SearchForCasesActive(){
         for (data of datas){
             document.getElementById('Ativos').innerText = data.Active
             const data_referenc = data.Date
-            document.getElementById('Data-referencia').innerText = ('Dados referentes a data: '+ data_referenc)
+            const data_referencia = data_referenc.replace(/(\d*)-(\d*)-(\d*).*/, '$3/$2/$1')
+            document.getElementById('Data-referencia').innerText = ('Dados referentes a data: '+ data_referencia)
         }        
     })
 }
@@ -56,7 +57,8 @@ function SearchForCasesConfirmed(){
         for (data of datas){
             document.getElementById('Confirmados').innerText = data.Confirmed
             const data_referenc = data.Date
-            document.getElementById('Data-referencia').innerText = ('Dados referentes a data: '+ data_referenc)
+            const data_referencia = data_referenc.replace(/(\d*)-(\d*)-(\d*).*/, '$3/$2/$1')
+            document.getElementById('Data-referencia').innerText = ('Dados referentes a data: '+ data_referencia)
         }        
     })
 }
@@ -84,7 +86,8 @@ function SearchForCasesRecovered(){
         for (data of datas){
             document.getElementById('Recuperados').innerText = data.Recovered
             const data_referenc = data.Date
-            document.getElementById('Data-referencia').innerText = ('Dados referentes a data: '+ data_referenc)
+            const data_referencia = data_referenc.replace(/(\d*)-(\d*)-(\d*).*/, '$3/$2/$1')
+            document.getElementById('Data-referencia').innerText = ('Dados referentes a data: '+ data_referencia)
         }        
     })
 }
@@ -112,7 +115,8 @@ function SearchForCasesDeaths(){
         for (data of datas){
             document.getElementById('Mortes').innerText = data.Deaths
             const data_referenc = data.Date
-            document.getElementById('Data-referencia').innerText = ('Dados referentes a data: '+ data_referenc)
+            const data_referencia = data_referenc.replace(/(\d*)-(\d*)-(\d*).*/, '$3/$2/$1')
+            document.getElementById('Data-referencia').innerText = ('Dados referentes a data: '+ data_referencia)
         }        
     })
 }
