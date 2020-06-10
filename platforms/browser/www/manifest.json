@@ -4,7 +4,7 @@
   "name": "Casos C-19",
   "short_name": "Casos C-19",
   "version": "io.cordova.hellocordova",
-  "description": "A application to show the number of corona cases of Brazil.",
+  "description": "App to find the updated number of cases in Brazil",
   "author": "WGL Code",
   "icons": [],
   "start_url": "index.html"
