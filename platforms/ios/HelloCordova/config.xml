@@ -23,9 +23,13 @@
         <param name="ios-package" value="CDVStatusBar" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
     <name>Casos C-19</name>
     <description>
-        A application to show the number of corona cases of Brazil.
+        App to find the updated number of cases in Brazil
     </description>
     <author email="wesleylg01@gmail.com" href="">
         WGL Code
