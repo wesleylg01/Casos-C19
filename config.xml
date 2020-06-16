@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="c19-release.keystore" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Casos C-19</name>
     <description>
         App to find the updated number of cases in Brazil
     </description>
-    <author email="wesleylg01@gmail.com" href="">
+    <author email="wesleylg01@gmail.com" href="http://wgltec.com.br">
         WGL Code
     </author>
     <content src="index.html" />
@@ -21,6 +21,11 @@
         <icon src="android/mdpi.png" density="mdpi" />
         <icon src="android/hdpi.png" density="hdpi" />
         <icon src="android/xhdpi.png" density="xhdpi" />
+
+        <splash src="www/android/splash-port-hdpi.png" density="port-hdpi"/>
+        <splash src="www/android/splash-port-ldpi.png" density="port-ldpi"/>
+        <splash src="www/android/splash-port-mdpi.png" density="port-mdpi"/>
+        <splash src="www/android/splash-port-xhdpi.png" density="port-xhdpi"/>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
